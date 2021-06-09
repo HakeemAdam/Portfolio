@@ -1,0 +1,28 @@
+body {
+  background: #282828;
+    color: #FFB000;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    position: relative;
+    text-rendering: optimizeLegibility;
+    --webkit-font-smoothing: antialiased;
+    font-family: 'B612', sans-serif;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+title{
+font-size: 64px;
+}
+
+.p{
+  font-size: 50rem;
+}
+a{
+  font-size: 2em;
+  color: #FFB000;
+  text-decoration: none;
+  
+}
