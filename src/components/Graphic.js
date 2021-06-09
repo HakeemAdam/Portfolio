@@ -6,7 +6,7 @@ import { useSpring, animated, config } from "@react-spring/three";
 const Boxes = () => {
 
     const boxMesh = useRef()
-    const [active, setActive] = useState(false);
+    const [active] = useState(false);
 
     const { scale } = useSpring({
         scale: active ? 1.5 : 1,
