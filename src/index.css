@@ -21,8 +21,17 @@ font-size: 64px;
   font-size: 50rem;
 }
 a{
-  font-size: 2em;
+  font-size: 1.5em;
   color: #FFB000;
   text-decoration: none;
   
+}
+
+@media (max-width:800px){
+  title{
+    flex-direction: column;
+  }
+  a{
+    font-size: 1em;
+  }
 }

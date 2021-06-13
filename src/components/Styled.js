@@ -4,6 +4,13 @@ export const Text = styled.div`
   font-size: 1.125rem;
   color: #ffcc00;
   text-align: center;
+  padding: 0px 10px;
+`;
+export const NameText = styled.div`
+  font-size: 1.5rem;
+  color: #896e00;
+  text-align: center;
+  padding: 10px 0px;
 `;
 
 export const StyledDiv = styled.div`
@@ -11,9 +18,16 @@ export const StyledDiv = styled.div`
   left: 50%;
   bottom: 20px;
   transform: translate(-50%, -50%);
-  margin: 0 auto;
+  margin: 1em auto;
   align-items: center;
   justify-content: center;
+  @media (max-width: 500px) {
+    flex-direction: column;
+    width: 100vw;
+    bottom:0;
+    padding-top: 10%;
+    
+  }
 `;
 
 export const Container = styled.div`
@@ -23,6 +37,10 @@ export const Container = styled.div`
   transform: translate(-50%, -50%);
   max-width: 25%;
   max-height: 25%;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+  
 `;
 
 export const ContentContainer = styled.div`
@@ -34,6 +52,7 @@ export const ContentContainer = styled.div`
   margin: 30px auto;
   @media (max-width: 400px) {
     width: 100%;
+    font-size: 12px;
   }
 `;
 
