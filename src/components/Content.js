@@ -24,7 +24,7 @@ const Content = () => {
                     <a href="https://runnforrest.netlify.app/" target="_blank" rel="noopener noreferrer">Runn Forrest</a>
                 </ListItem>
                 <ListItem>
-                    <a href="https://ghanaairwaystextgen.netlify.app/" target="_blank" rel="noopener noreferrer">GHana Airways Text Generator</a>
+                    <a href="https://ghanaairwaystextgen.netlify.app/" target="_blank" rel="noopener noreferrer">Ghana Airways Text Generator</a>
                 </ListItem>
                 <ListItem>
                     <a href="https://onefifth.digital/" target="_blank" rel="noopener noreferrer">One Fifth of the Earth's Surface</a>

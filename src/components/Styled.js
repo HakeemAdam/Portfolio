@@ -48,7 +48,7 @@ export const ContentContainer = styled.div`
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
+  width: 600px;
   margin: 30px auto;
   @media (max-width: 400px) {
     width: 100%;
